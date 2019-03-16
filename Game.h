@@ -12,7 +12,7 @@ namespace Sep
   {
     public:
       Game();
-      void loadConfig(std::string cfg_file);
+      int loadConfig(std::string cfg_file);
       void addWorm(int row, int col);
       void printMap();
       void move(int row, int col, int steps);
